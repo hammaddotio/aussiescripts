@@ -4,7 +4,7 @@ import TeleHealthBooking from './components/TeleHealthBooking';
 import ServicesSection from './components/Services';
 import HealthSection from './components/HealthSection';
 import Footer from './components/Footer';
-import FAQ from './components/FaQ';
+import FaQ from './components/FaQ';
 import HealthcareForAustralians from './components/HealthcareForAustralians';
 import TeleHealthOnDemand from './components/TeleHealthOnDemand';
 
@@ -16,7 +16,7 @@ const App = () => {
       <TeleHealthOnDemand />
       <HealthcareForAustralians />
       <TeleHealthBooking />
-      <FAQ />
+      <FaQ />
       <HealthSection />
       <Footer />
     </div>
