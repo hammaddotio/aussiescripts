@@ -26,7 +26,7 @@ const ServiceCard = ({ title, description, price, image }) => {
     return (
         <div className="flex flex-col justify-between rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out transform hover:-translate-y-1 bg-white">
             {/* Image Section */}
-            <img
+            <img loading='lazy'
                 src={image}
                 alt={title}
                 className="h-48 w-full object-cover rounded-t-lg"

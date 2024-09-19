@@ -26,7 +26,7 @@ const steps = [
 const ServiceStep = ({ number, title, image }) => {
     return (
         <div className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg overflow-hidden">
-            <img
+            <img loading='lazy'
                 src={image}
                 alt={`Step ${number}`}
                 className="w-full h-40 object-cover"
@@ -52,7 +52,7 @@ export default function TeleHealthBooking() {
                     prescriptions, or referrals.
                 </p>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mb-8 min-h-72">
                     {steps.map((step, index) => (
                         <ServiceStep key={index} {...step} />
                     ))}
@@ -83,7 +83,7 @@ export default function TeleHealthBooking() {
 
                         {/* Image Section */}
                         <div className="md:w-1/3 flex justify-end">
-                            <img
+                            <img loading='lazy'
                                 src="https://aussiescripts.com.au/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftelehealth-doctors.73073340.png&w=256&q=75"
                                 alt="Doctors"
                                 className="w-44 h-auto rounded-lg"

@@ -12,7 +12,7 @@ function HealthcareForAustralians() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="bg-white p-6 rounded shadow-md">
                         <div className="mb-4 flex justify-center items-center">
-                            <img
+                            <img loading='lazy'
                                 className='h-20'
                                 src="https://syd1.digitaloceanspaces.com/aussie.scripts.bucket/asserts/public/safe-and-convinient.gif"
                                 alt="Convenient Prescription"
@@ -26,7 +26,7 @@ function HealthcareForAustralians() {
 
                     <div className="bg-white p-6 rounded shadow-md">
                         <div className="mb-4 flex justify-center items-center">
-                            <img
+                            <img loading='lazy'
                                 className='h-20'
                                 src="https://syd1.digitaloceanspaces.com/aussie.scripts.bucket/asserts/public/quick-access.gif"
                                 alt="Fast and Reliable"
@@ -40,7 +40,7 @@ function HealthcareForAustralians() {
 
                     <div className="bg-white p-6 rounded shadow-md">
                         <div className="mb-4 flex justify-center items-center">
-                            <img
+                            <img loading='lazy'
                                 className='h-20'
                                 src="https://syd1.digitaloceanspaces.com/aussie.scripts.bucket/asserts/public/you-are-in-control.gif"
                                 alt="You're in Control"
@@ -54,7 +54,7 @@ function HealthcareForAustralians() {
 
                     <div className="bg-white p-6 rounded shadow-md">
                         <div className="mb-4 flex justify-center items-center">
-                            <img
+                            <img loading='lazy'
                                 className='h-20'
                                 src="https://syd1.digitaloceanspaces.com/aussie.scripts.bucket/asserts/public/secure-and-trusted-care.gif"
                                 alt="Secure and Trusted Care"

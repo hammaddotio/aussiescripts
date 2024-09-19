@@ -9,7 +9,7 @@ const Footer = () => {
 
                     {/* Logo and Description */}
                     <div>
-                        <img src="path-to-your-logo" alt="Aussie Scripts Logo" className="mb-4" />
+                        <img loading='lazy' src="path-to-your-logo" alt="Aussie Scripts Logo" className="mb-4" />
                         <p className="text-sm">
                             Aussie Scripts is a proudly Australian-owned company that stands as one of the largest and most reputable in the country. Offering a range of online services such as accessing prescriptions for common medications, consulting with doctors, obtaining medical certificates, and requesting blood tests, Aussie Scripts is dedicated to providing top-quality care to all.
                         </p>
@@ -66,7 +66,7 @@ const Footer = () => {
                 {/* Acknowledgement & Social Links */}
                 <div className="border-t border-gray-300 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
                     <div className="my-8 flex justify-center">
-                        <img src="https://aussiescripts.com.au/_next/image?url=https%3A%2F%2Fstatic.legitscript.com%2Fseals%2F30479379.png&w=256&q=75" alt="Certification" className="h-16" />
+                        <img loading='lazy' src="https://aussiescripts.com.au/_next/image?url=https%3A%2F%2Fstatic.legitscript.com%2Fseals%2F30479379.png&w=256&q=75" alt="Certification" className="h-16" />
                     </div>
 
                     <div className="flex flex-col-reverse space-x-4 mt-4 md:mt-0">
@@ -75,8 +75,8 @@ const Footer = () => {
                         </p>
 
                         <div className='flex items-end justify-end gap-4 my-2'>
-                            <a href="#"><img src="https://aussiescripts.com.au/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Findigenous-flag-one.abc4f41c.png&w=64&q=75" alt="Indigenous Flag" className="h-8" /></a>
-                            <a href="#"><img src="https://aussiescripts.com.au/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Findigenous-flag-two.3f2c3ba0.png&w=64&q=75" alt="Torres Strait Flag" className="h-8" /></a>
+                            <a href="#"><img loading='lazy' src="https://aussiescripts.com.au/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Findigenous-flag-one.abc4f41c.png&w=64&q=75" alt="Indigenous Flag" className="h-8" /></a>
+                            <a href="#"><img loading='lazy' src="https://aussiescripts.com.au/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Findigenous-flag-two.3f2c3ba0.png&w=64&q=75" alt="Torres Strait Flag" className="h-8" /></a>
                         </div>
                     </div>
                 </div>
